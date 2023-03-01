@@ -6,6 +6,7 @@ module.exports = {
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
+    "./public/pages/**/*.{html,js}"
   ],
   theme: {
     fontFamily: {
