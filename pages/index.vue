@@ -1,65 +1,7 @@
 <template>
   <div>
-    <!-- Sidebar -->
-    <div class="hidden lg:block fixed lg:max-w-[295px] w-full overflow-y-auto h-full bg-white z-[999]" id="sidebarHRIS">
-      <div class="px-6 py-[50px] gap-y-[50px] flex flex-col">
-        <div class="flex items-center justify-between">
-          <a href="#" class="flex justify-center">
-            <img src="/assets/svgs/logo-type.svg" alt="" />
-          </a>
-          <a href="#" id="toggleCloseSidebar" class="lg:hidden">
-            <svg class="w-6 h-6 text-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-            </svg>
-          </a>
-        </div>
-        <div class="flex flex-col gap-4">
-          <div class="text-sm text-grey">Daily Use</div>
-          <a href="index.html" class="nav-link active">
-            <img src="/assets/svgs/ic-grid.svg" alt="" />
-            Overview
-          </a>
-          <a href="employees.html" class="nav-link">
-            <img src="/assets/svgs/ic-users.svg" alt="" />
-            Employees
-          </a>
-          <a href="my_teams.html" class="nav-link">
-            <img src="/assets/svgs/ic-briefcase.svg" alt="" />
-            My Teams
-          </a>
-          <a href="roles.html" class="nav-link">
-            <img src="/assets/svgs/ic-flag.svg" alt="" />
-            Roles
-          </a>
-        </div>
-        <div class="flex flex-col gap-4">
-          <div class="text-sm text-grey">Others</div>
-          <a href="#" class="nav-link">
-            <img src="/assets/svgs/ic-box.svg" alt="" />
-            Insurances
-          </a>
-          <a href="#" class="nav-link">
-            <img src="/assets/svgs/ic-home.svg" alt="" />
-            Company
-          </a>
-          <a href="#" class="nav-link">
-            <img src="/assets/svgs/ic-gift.svg" alt="" />
-            Rewards
-          </a>
-          <a href="#" class="nav-link">
-            <img src="/assets/svgs/ic-settings.svg" alt="" />
-            Settings
-          </a>
-          <a href="#" class="nav-link">
-            <img src="/assets/svgs/ic-signout.svg" alt="" />
-            Logout
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- End of Sidebar -->
-    <!-- Content -->
+
+    <!-- Main Content -->
     <div class="lg:pr-[70px] py-[50px] lg:ml-[320px] xl:ml-[365px] px-4 lg:pl-0">
       <!-- Top Section -->
       <section class="flex flex-col flex-wrap justify-between gap-6 md:items-center md:flex-row">
@@ -186,6 +128,10 @@
         </div>
       </section>
     </div>
-    <!-- End Content -->
   </div>
 </template>
+<script>
+export default {
+  layout: 'dashboard',
+}
+</script>
