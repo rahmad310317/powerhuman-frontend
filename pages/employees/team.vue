@@ -87,9 +87,9 @@
                         </div>
                     </div>
                     <div class="flex justify-center">
-                        <a href="employees.html" id="continueBtn" class="btn btn-primary">
+                        <Nuxt-link :to="{ name: 'employees' }" id="continueBtn" class="btn btn-primary">
                             Continue
-                        </a>
+                        </Nuxt-link>
                     </div>
                 </form>
             </section>

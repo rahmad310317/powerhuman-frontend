@@ -60,9 +60,9 @@
                         </div>
                     </div>
                 </section>
-                <a href="employee_add-to-team.html" class="w-full btn btn-primary mt-[14px]">
+                <Nuxt-link :to="{ name: 'employees-team' }" class="w-full btn btn-primary mt-[14px]">
                     Continue
-                </a>
+                </Nuxt-link>
             </form>
         </section>
     </div>
