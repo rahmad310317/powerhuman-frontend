@@ -17,21 +17,19 @@
                 </div>
                 <div class="flex flex-col gap-4">
                     <div class="text-sm text-grey">Daily Use</div>
-                    <Nuxt-link to="/" class="nav-link active">
+                    <Nuxt-link :to="{ name: 'compaines-id' }" class="nav-link active">
                         <img src="/assets/svgs/ic-grid.svg" alt="">
                         Overview
                     </Nuxt-link>
-                    <Nuxt-link :to="{
-                        name: 'employees'
-                    }" class="nav-link">
+                    <Nuxt-link :to="{ name: 'compaines-id-employees' }" class="nav-link">
                         <img src="/assets/svgs/ic-users.svg" alt="">
                         Employees
                     </Nuxt-link>
-                    <Nuxt-link :to="{ name: 'teams' }" class="nav-link">
+                    <Nuxt-link :to="{ name: 'compaines-id-teams' }" class="nav-link">
                         <img src="/assets/svgs/ic-briefcase.svg" alt="">
                         My Teams
                     </Nuxt-link>
-                    <Nuxt-link :to="{ name: 'roles' }" class="nav-link">
+                    <Nuxt-link :to="{ name: 'compaines-id-roles' }" class="nav-link">
                         <img src="/assets/svgs/ic-flag.svg" alt="">
                         Roles
                     </Nuxt-link>
